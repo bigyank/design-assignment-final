@@ -36,7 +36,7 @@
   }
 
   .container {
-    max-width: 992px;
+    max-width: 990px;
     margin: 0 auto;
   }
 
@@ -115,7 +115,7 @@
     display: block;
   }
 
-  .countdown ul li {
+  /* .countdown ul li {
     display: inline-block;
     padding: 45px 45px 45px 0;
   }
@@ -146,6 +146,13 @@
 
   .countdown ul li::before {
     padding-right: 45px;
+  } */
+
+  .countdown ul li:not(:first-child):before {
+    content: "—";
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
   }
 
   .banner-content .content-footer {

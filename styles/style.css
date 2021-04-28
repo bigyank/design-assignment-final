@@ -145,3 +145,59 @@ body {
 }
 
 /* about end */
+
+/* stats */
+.stats-body {
+  text-align: center;
+  width: 100%;
+}
+
+.countdown ul li {
+  display: inline-block;
+  padding: 45px 45px 45px 0;
+}
+
+.countdown ul li div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.countdown ul li p:first-child {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.countdown ul li p:last-child {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* .countdown ul li:not(:first-child):before {
+  content: "—";
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+} */
+
+.countdown ul li::before {
+  padding-right: 45px;
+}
+
+/* stats */
+.stats {
+  color: white;
+  background: rgb(240, 75, 72);
+  background: linear-gradient(
+    270deg,
+    rgba(240, 75, 72, 1) 0%,
+    rgba(247, 127, 48, 1) 35%,
+    rgba(252, 165, 30, 1) 100%
+  );
+}
+
+.stats-body ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
