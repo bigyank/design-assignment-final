@@ -1,0 +1,147 @@
+:root {
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+
+  --clr-primary: #fdaf19;
+  --clr-secondary: #f0474a;
+  --clr-neutral: #ffffff;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+.hide-sm {
+  display: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfloat::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 11px 36px;
+}
+
+.btn-neutral {
+  border: 2px solid var(--clr-neutral);
+  color: var(--clr-neutral);
+  background: transparent;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+}
+
+.btn-secondary {
+  color: #000;
+  background: transparent;
+  border: 2px solid var(--clr-secondary);
+}
+
+.btn-neutral:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: var(--clr-secondary);
+  border: 2px solid var(--clr-secondary);
+  color: var(--clr-neutral);
+}
+
+.btn-neutral:active,
+.btn-primary:active,
+.btn-secondary:active {
+  background-color: var(--clr-secondary);
+  border: 2px solid var(--clr-secondary);
+}
+
+/* nav bar */
+.nav-container {
+  padding: 15px 15px;
+}
+
+.nav-banner {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hamburger {
+  background: transparent;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+/* hero banner */
+.hero-banner {
+  background: url("../images/banner.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content,
+.about-content {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner-content {
+  color: white;
+}
+
+.banner-content .banner-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font-secondary);
+}
+
+.banner-content .banner-subtitle {
+  font-size: 14px;
+}
+
+/* banner end */
+
+.content-footer button,
+.about-footer button {
+  display: block;
+  margin: 15px auto;
+}
+
+.about-title h2 {
+  font-size: 26px;
+  margin-top: 14px;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.about-body p {
+  padding: 30px 0 50px 0;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* about end */
