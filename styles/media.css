@@ -12,6 +12,7 @@
   .card-wraper {
     width: 31%;
   }
+
   /* cards end */
 
   .banner-content .content-footer {
@@ -39,6 +40,14 @@
 
   .speakers-body {
     text-align: center;
+  }
+  /* schedule */
+  .schedule-title h2 {
+    font-size: 40px;
+  }
+
+  .schedule-subtitle p {
+    font-size: 20px;
   }
 }
 
@@ -163,5 +172,22 @@
       rgba(247, 127, 48, 1) 35%,
       rgba(252, 165, 30, 1) 100%
     );
+  }
+
+  .schedule-countdown .countdown {
+    padding: 50px 30px;
+  }
+
+  .schedule-countdown .countdown ul li:not(:first-child):before {
+    content: "";
+  }
+
+  .schedule-countdown .countdown ul li {
+    padding: 0 20px;
+    border-right: 1px solid #e9e9e9;
+  }
+
+  .schedule-countdown .countdown ul li:last-child {
+    border-right: 0;
   }
 }
