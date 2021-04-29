@@ -231,3 +231,8 @@ body {
 .schedule-body {
   margin-top: 40px;
 }
+
+/* old speakers */
+.oldspeakers-section {
+  clear: both;
+}
