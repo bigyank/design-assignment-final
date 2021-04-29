@@ -42,12 +42,34 @@
     text-align: center;
   }
   /* schedule */
+  .schedule-body {
+    margin-left: 2em;
+  }
+
   .schedule-title h2 {
     font-size: 40px;
   }
 
   .schedule-subtitle p {
     font-size: 20px;
+  }
+
+  /* schedule card */
+  .schedule-card-body {
+    padding-bottom: 2rem;
+  }
+
+  .schedule-card-body .time {
+    font-size: 18px;
+  }
+
+  .schedule-card-body .title {
+    font-size: 22px;
+  }
+
+  .schedule-card-body .schedule-description,
+  .schedule-card .schedule-card-icon {
+    display: block;
   }
 }
 
@@ -189,5 +211,9 @@
 
   .schedule-countdown .countdown ul li:last-child {
     border-right: 0;
+  }
+
+  .schedule-body {
+    margin-left: 4em;
   }
 }

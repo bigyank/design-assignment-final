@@ -149,7 +149,7 @@ body {
 /* schedule */
 .schedule-wraper {
   text-align: center;
-  height: 50vh;
+  height: 70vh;
 }
 
 .schedule-title h2 {
@@ -191,4 +191,43 @@ body {
 }
 .schedule-logo img {
   display: inline-block;
+}
+
+.schedule-pill {
+  display: inline-block;
+  background-color: #f3f3f3;
+  padding: 1em;
+  border-radius: 100px;
+}
+
+.schedule-pill span a {
+  padding: 0 1em;
+  font-weight: bold;
+  color: #5d5d5d;
+}
+
+.schedule-pill .active a {
+  color: black;
+}
+
+.active {
+  position: relative;
+  height: 50vh;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 30px;
+  border-color: #f3f3f3 transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+.schedule-body {
+  margin-top: 40px;
 }

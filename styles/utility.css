@@ -42,6 +42,11 @@
   width: 45%;
   margin-bottom: 10px;
   margin-right: 0.7em;
+  cursor: pointer;
+}
+
+.card-wraper:hover {
+  transform: scale(1.01);
 }
 
 .card {
@@ -116,4 +121,53 @@
 
 .countdown ul li::before {
   padding-right: 20px;
+}
+
+/* schedule card */
+.schedule-card {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.img-wraper {
+  height: 70px;
+  max-width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.schedule-body img {
+  width: 100%;
+}
+
+.schedule-card-body {
+  text-align: left;
+  width: 60%;
+  margin-left: 2em;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.schedule-card-body .title {
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.schedule-card-body .time {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.schedule-card-body .schedule-description {
+  padding-top: 1em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.schedule-card .schedule-card-icon i {
+  color: grey;
+  margin-right: 8em;
 }
