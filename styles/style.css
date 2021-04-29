@@ -29,6 +29,8 @@ body {
   clear: both;
 }
 
+/* buttons */
+
 .btn {
   text-transform: uppercase;
   border-radius: 20px;
@@ -65,12 +67,7 @@ body {
   color: var(--clr-neutral);
 }
 
-.btn-neutral:active,
-.btn-primary:active,
-.btn-secondary:active {
-  background-color: var(--clr-secondary);
-  border: 2px solid var(--clr-secondary);
-}
+/* cards */
 
 /* nav bar */
 .nav-container {
@@ -154,7 +151,7 @@ body {
 
 .countdown ul li {
   display: inline-block;
-  padding: 45px 45px 45px 0;
+  padding: 20px;
 }
 
 .countdown ul li div {
@@ -174,23 +171,17 @@ body {
   letter-spacing: 1px;
 }
 
-/* .countdown ul li:not(:first-child):before {
-  content: "—";
-  color: black;
-  font-size: 12px;
-  font-weight: 700;
-} */
-
 .countdown ul li::before {
-  padding-right: 45px;
+  padding-right: 20px;
 }
 
 /* stats */
+
 .stats {
   color: white;
   background: rgb(240, 75, 72);
-  background: linear-gradient(
-    270deg,
+  background: radial-gradient(
+    circle,
     rgba(240, 75, 72, 1) 0%,
     rgba(247, 127, 48, 1) 35%,
     rgba(252, 165, 30, 1) 100%
@@ -200,4 +191,82 @@ body {
 .stats-body ul li {
   display: inline-block;
   padding-right: 20px;
+}
+
+/* speakers */
+.speakers-section {
+  padding-bottom: 80px;
+}
+
+.speakers {
+  padding-top: 80px;
+}
+
+.speakers h2 {
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.speakers .speakers-body {
+  padding-top: 40px;
+}
+
+/* card */
+.card-wraper {
+  display: inline-block;
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+.card-wraper {
+  margin-right: 0.7em;
+}
+
+.card {
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: linear-gradient(
+    to bottom,
+    rgba(28, 28, 28, 0.23) 40%,
+    rgba(27, 29, 29, 0.63) 60%,
+    rgba(27, 29, 29, 0.92) 80%,
+    rgba(27, 29, 29, 0.99) 100%
+  );
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-footer {
+  position: absolute;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-footer p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--font-secondary);
 }
