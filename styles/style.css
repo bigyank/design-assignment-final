@@ -160,7 +160,7 @@ body {
 }
 
 .schedule-subtitle p {
-  letter-spacing: 2;
+  letter-spacing: 2px;
   font-weight: 300;
   padding-top: 20px;
   font-size: 18px;
@@ -235,4 +235,85 @@ body {
 /* old speakers */
 .oldspeakers-section {
   clear: both;
+}
+
+/*  ticket stats*/
+
+.ticket-stats {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.ticket-stats .ticket-title {
+  font-family: var(--font-secondary);
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+/* tesimonials */
+.testimonials-wraper {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.testimonials-wraper {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.testimonials-wraper .testimonials-header {
+  font-family: var(--font-secondary);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.testimonials-wraper .testimonials-subheader {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.testimonials-cards {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.testimonials-card {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.testimonials-body {
+  margin-left: 50px;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.09);
+  padding: 15px 15px 25px 80px;
+}
+
+.testimonials-body-header {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.testimonials-body-name {
+  margin-top: 25px;
+}
+
+.testimonials-body-footer {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.testimonials-body-inner {
+  position: relative;
+}
+
+.testimonials-avatar {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
 }

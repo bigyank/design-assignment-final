@@ -71,6 +71,30 @@
   .schedule-card .schedule-card-icon {
     display: block;
   }
+
+  /* ticket-stats */
+  .ticket-stats .ticket-title {
+    font-size: 34px;
+  }
+
+  .ticket-stats .countdown {
+    margin-left: 1em;
+  }
+
+  /* testimonial */
+  .testimonials-wraper .testimonials-header {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .testimonials-wraper .testimonials-subheader {
+    font-size: 20px;
+  }
+
+  .testimonials-card {
+    width: 95%;
+    margin-inline: auto;
+  }
 }
 
 /* large screen size */
@@ -215,5 +239,20 @@
 
   .schedule-body {
     margin-left: 4em;
+  }
+
+  .ticket-stats .countdown {
+    margin-left: 3em;
+  }
+
+  .testimonials-card {
+    width: 45%;
+    display: inline-block;
+    margin: 37px 20px;
+    margin-left: 20px;
+  }
+
+  .testimonials-card:nth-child(2n + 1) {
+    margin-left: 0;
   }
 }
