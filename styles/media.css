@@ -98,7 +98,8 @@
 
   /* sponsors */
   .sponsers-list span {
-    width: 30%;
+    width: 15%;
+    margin-right: 30px;
   }
 
   /* loaction */
