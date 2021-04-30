@@ -111,7 +111,6 @@ body {
 
 .stats {
   color: white;
-  background: rgb(240, 75, 72);
   background: radial-gradient(
     circle,
     rgba(240, 75, 72, 1) 0%,
@@ -432,4 +431,57 @@ body {
 
 .details-footer i {
   margin-right: 20px;
+}
+
+/* updates */
+.updates-wraper {
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  background: radial-gradient(
+    circle,
+    rgba(240, 75, 72, 1) 0%,
+    rgba(247, 127, 48, 1) 35%,
+    rgba(252, 165, 30, 1) 100%
+  );
+}
+
+.updates-wraper h2 {
+  font-family: var(--font-secondary);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.updates-wraper .mail-address {
+  border: 2px solid white;
+  border-radius: 36px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 40px;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.mail-input {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: none;
+  background: transparent;
+  width: 80%;
+}
+
+.mail-input:focus {
+  outline: none;
+}
+
+/* footer */
+footer {
+  color: whitesmoke;
+  text-align: center;
+  background-color: #292b2b;
+  padding: 32px 0;
+  font-size: 16px;
 }
