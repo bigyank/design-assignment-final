@@ -100,6 +100,24 @@
   .sponsers-list span {
     width: 30%;
   }
+
+  /* loaction */
+  .location-wraper {
+    height: 85vh;
+  }
+  .location-details {
+    margin-left: 40px;
+    padding: 65px 60px;
+  }
+
+  .location-details .location-header {
+    font-size: 40px;
+    margin-top: 16px;
+  }
+
+  .location-details .details-body .info {
+    font-size: 16px;
+  }
 }
 
 /* large screen size */
