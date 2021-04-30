@@ -95,6 +95,11 @@
     width: 95%;
     margin-inline: auto;
   }
+
+  /* sponsors */
+  .sponsers-list span {
+    width: 30%;
+  }
 }
 
 /* large screen size */

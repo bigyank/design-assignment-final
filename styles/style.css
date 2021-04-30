@@ -317,3 +317,70 @@ body {
   position: absolute;
   top: 40px;
 }
+
+/* sponsors */
+
+.sponsors-wraper {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.sponsers-header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.sponsers-header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.sponsers-header p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.sponsers-body {
+  padding: 40px;
+}
+
+.sponsers-body .sponsers-subheader {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+
+.sponsers-list span {
+  display: inline-block;
+  width: 43%;
+  margin: 15px;
+}
+
+.sponsers-list span:first-child {
+  margin-left: 0;
+}
+
+.sponsers-list span:last-child {
+  margin-right: 0;
+}
+
+.sponsers-list img {
+  display: inline-block;
+}
+
+.plat-sponsers {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.media-sponsers {
+  margin-top: 40px;
+}
+
+.media-sponsers .sponsers-list span:last-child {
+  margin-left: 0;
+}
