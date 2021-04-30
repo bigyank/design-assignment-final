@@ -131,6 +131,22 @@
     margin-left: 40px;
   }
 
+  /* footer links */
+  .events {
+    width: 40%;
+  }
+
+  .event-lists {
+    width: 20%;
+  }
+
+  .events,
+  .event-lists,
+  .instagram {
+    float: left;
+    padding-right: 30px;
+  }
+
   /* footer */
   footer {
     font-size: 18px;
